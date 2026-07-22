@@ -3,25 +3,19 @@
 
 <head>
 
-    <!-- ================================================
-         BASIC DOCUMENT SETUP
-    ================================================= -->
-
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Internet Experiment Lab — a collection of strange, fun, interactive experiments built for curious minds.">
+        content="Internet Experiment Lab — strange, fun, interactive experiments for curious minds.">
 
     <meta name="theme-color" content="#08090d">
 
     <title>Internet Experiment Lab</title>
 
 
-    <!-- ================================================
-         FONTS
-    ================================================= -->
+    <!-- GOOGLE FONTS -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -31,20 +25,15 @@
         rel="stylesheet">
 
 
-    <!-- ================================================
-         ICONS
-    ================================================= -->
+    <!-- FONT AWESOME -->
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
-    <!-- ================================================
-         WEBSITE STYLESHEET
-    ================================================= -->
+    <!-- WEBSITE CSS -->
 
     <link rel="stylesheet" href="style.css">
-
 
 </head>
 
@@ -52,9 +41,9 @@
 <body>
 
 
-    <!-- ================================================
-         BACKGROUND EFFECTS
-    ================================================= -->
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
 
     <div class="background-grid"></div>
 
@@ -65,16 +54,16 @@
     <div class="noise-overlay"></div>
 
 
-    <!-- ================================================
-         NAVIGATION
-    ================================================= -->
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
 
     <header class="site-header">
 
         <nav class="navbar">
 
 
-            <!-- LOGO -->
+            <!-- BRAND -->
 
             <a href="#" class="brand">
 
@@ -84,11 +73,13 @@
 
                 </div>
 
+
                 <div class="brand-text">
 
                     <span class="brand-name">
                         INTERNET
                     </span>
+
 
                     <span class="brand-subtitle">
                         EXPERIMENT LAB
@@ -99,7 +90,7 @@
             </a>
 
 
-            <!-- NAVIGATION LINKS -->
+            <!-- DESKTOP NAVIGATION -->
 
             <div class="nav-links">
 
@@ -107,9 +98,11 @@
                     Experiments
                 </a>
 
+
                 <a href="#about">
                     About Lab
                 </a>
+
 
                 <a href="#stats">
                     Statistics
@@ -118,7 +111,7 @@
             </div>
 
 
-            <!-- LIVE STATUS -->
+            <!-- LAB STATUS -->
 
             <div class="lab-status">
 
@@ -131,9 +124,10 @@
             </div>
 
 
-            <!-- MOBILE MENU -->
+            <!-- MOBILE BUTTON -->
 
-            <button class="mobile-menu-button" id="mobileMenuButton">
+            <button class="mobile-menu-button"
+                id="mobileMenuButton">
 
                 <i class="fa-solid fa-bars"></i>
 
@@ -145,19 +139,22 @@
     </header>
 
 
-    <!-- ================================================
-         MOBILE NAVIGATION
-    ================================================= -->
+    <!-- =====================================================
+         MOBILE MENU
+    ====================================================== -->
 
-    <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu"
+        id="mobileMenu">
 
         <a href="#experiments">
             Experiments
         </a>
 
+
         <a href="#about">
             About Lab
         </a>
+
 
         <a href="#stats">
             Statistics
@@ -166,26 +163,24 @@
     </div>
 
 
-    <!-- ================================================
-         MAIN WEBSITE
-    ================================================= -->
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
 
     <main>
 
 
-        <!-- ============================================
+        <!-- =================================================
              HERO SECTION
-        ============================================= -->
+        ================================================== -->
 
         <section class="hero-section">
 
 
-            <!-- HERO LEFT SIDE -->
+            <!-- HERO CONTENT -->
 
             <div class="hero-content">
 
-
-                <!-- SMALL LABEL -->
 
                 <div class="hero-label">
 
@@ -198,17 +193,17 @@
                 </div>
 
 
-                <!-- MAIN TITLE -->
-
                 <h1>
 
                     <span>
                         WELCOME TO THE
                     </span>
 
+
                     <strong>
                         INTERNET
                     </strong>
+
 
                     <span>
                         EXPERIMENT LAB
@@ -216,8 +211,6 @@
 
                 </h1>
 
-
-                <!-- DESCRIPTION -->
 
                 <p class="hero-description">
 
@@ -228,25 +221,27 @@
                 </p>
 
 
-                <!-- HERO BUTTONS -->
-
                 <div class="hero-actions">
 
 
-                    <a href="#experiments" class="primary-button">
+                    <a href="#experiments"
+                        class="primary-button">
 
                         <span>
                             ENTER THE LAB
                         </span>
+
 
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
 
 
-                    <button class="secondary-button" id="randomExperimentButton">
+                    <button class="secondary-button"
+                        id="randomExperimentButton">
 
                         <i class="fa-solid fa-shuffle"></i>
+
 
                         <span>
                             SURPRISE ME
@@ -254,15 +249,13 @@
 
                     </button>
 
-
                 </div>
 
-
-                <!-- HERO NOTICE -->
 
                 <div class="hero-notice">
 
                     <i class="fa-solid fa-triangle-exclamation"></i>
+
 
                     <span>
                         WARNING: SIDE EFFECTS MAY INCLUDE CURIOSITY
@@ -270,23 +263,19 @@
 
                 </div>
 
-
             </div>
 
 
-            <!-- HERO RIGHT SIDE -->
+            <!-- HERO TERMINAL -->
 
             <div class="hero-visual">
 
 
-                <!-- LAB TERMINAL -->
-
                 <div class="terminal-window">
 
 
-                    <!-- TERMINAL HEADER -->
-
                     <div class="terminal-header">
+
 
                         <div class="terminal-controls">
 
@@ -298,9 +287,11 @@
 
                         </div>
 
+
                         <span class="terminal-title">
                             experiment_terminal.exe
                         </span>
+
 
                         <span class="terminal-id">
                             #001
@@ -309,15 +300,15 @@
                     </div>
 
 
-                    <!-- TERMINAL CONTENT -->
-
                     <div class="terminal-content">
+
 
                         <div class="terminal-line">
 
                             <span class="terminal-green">
                                 $
                             </span>
+
 
                             <span>
                                 initializing_lab()
@@ -332,6 +323,7 @@
                                 &gt;
                             </span>
 
+
                             <span>
                                 Loading questionable experiments...
                             </span>
@@ -344,6 +336,7 @@
                             <span>
                                 ✓
                             </span>
+
 
                             <span>
                                 Experiments loaded
@@ -358,6 +351,7 @@
                                 ✓
                             </span>
 
+
                             <span>
                                 Curiosity detected
                             </span>
@@ -370,6 +364,7 @@
                             <span>
                                 !
                             </span>
+
 
                             <span>
                                 Proceed with curiosity
@@ -384,6 +379,7 @@
                                 $
                             </span>
 
+
                             <span class="terminal-cursor">
                                 █
                             </span>
@@ -392,17 +388,17 @@
 
                     </div>
 
-
                 </div>
 
 
-                <!-- FLOATING DATA CARDS -->
+                <!-- FLOATING DATA -->
 
                 <div class="floating-data data-one">
 
                     <span class="data-label">
                         CURIOSITY
                     </span>
+
 
                     <strong>
                         98.7%
@@ -417,24 +413,24 @@
                         STATUS
                     </span>
 
+
                     <strong>
                         UNSTABLE
                     </strong>
 
                 </div>
 
-
             </div>
-
 
         </section>
 
 
-        <!-- ============================================
-             EXPERIMENT DASHBOARD
-        ============================================= -->
+        <!-- =================================================
+             EXPERIMENT DATABASE
+        ================================================== -->
 
-        <section class="experiments-section" id="experiments">
+        <section class="experiments-section"
+            id="experiments">
 
 
             <!-- SECTION HEADER -->
@@ -449,6 +445,7 @@
                         <span class="section-number">
                             01
                         </span>
+
 
                         <span>
                             EXPERIMENT DATABASE
@@ -470,17 +467,17 @@
                         AVAILABLE EXPERIMENTS
                     </span>
 
+
                     <strong>
                         08
                     </strong>
 
                 </div>
 
-
             </div>
 
 
-            <!-- EXPERIMENT FILTERS -->
+            <!-- SEARCH AND FILTER -->
 
             <div class="experiment-controls">
 
@@ -488,6 +485,7 @@
                 <div class="search-box">
 
                     <i class="fa-solid fa-magnifying-glass"></i>
+
 
                     <input type="text"
                         id="experimentSearch"
@@ -498,12 +496,14 @@
 
                 <div class="filter-buttons">
 
+
                     <button class="filter-button active"
                         data-filter="all">
 
                         ALL
 
                     </button>
+
 
                     <button class="filter-button"
                         data-filter="chaos">
@@ -512,12 +512,14 @@
 
                     </button>
 
+
                     <button class="filter-button"
                         data-filter="test">
 
                         TESTS
 
                     </button>
+
 
                     <button class="filter-button"
                         data-filter="random">
@@ -528,16 +530,16 @@
 
                 </div>
 
-
             </div>
 
 
-            <!-- EXPERIMENT GRID -->
+            <!-- EXPERIMENT CARDS -->
 
-            <div class="experiments-grid" id="experimentsGrid">
+            <div class="experiments-grid"
+                id="experimentsGrid">
 
 
-                <!-- EXPERIMENT 01 -->
+                <!-- EXPERIMENT 001 -->
 
                 <article class="experiment-card featured-card"
                     data-category="chaos"
@@ -549,6 +551,7 @@
                         <span class="experiment-number">
                             EXP. 001
                         </span>
+
 
                         <span class="experiment-status active-status">
 
@@ -582,9 +585,13 @@
                     <div class="card-bottom">
 
                         <span class="difficulty">
+
                             <i class="fa-solid fa-bolt"></i>
+
                             CHAOS LEVEL: HIGH
+
                         </span>
+
 
                         <button class="launch-button"
                             data-experiment="dont-click">
@@ -597,11 +604,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 02 -->
+                <!-- EXPERIMENT 002 -->
 
                 <article class="experiment-card"
                     data-category="test"
@@ -613,6 +619,7 @@
                         <span class="experiment-number">
                             EXP. 002
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -638,8 +645,7 @@
 
 
                     <p>
-                        Discover what kind of internet creature you really
-                        are.
+                        Discover what kind of internet creature you really are.
                     </p>
 
 
@@ -665,11 +671,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 03 -->
+                <!-- EXPERIMENT 003 -->
 
                 <article class="experiment-card"
                     data-category="random"
@@ -681,6 +686,7 @@
                         <span class="experiment-number">
                             EXP. 003
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -706,8 +712,8 @@
 
 
                     <p>
-                        Press a button and discover what completely random
-                        event will happen to you today.
+                        Press a button and discover what random event will
+                        happen to you today.
                     </p>
 
 
@@ -733,11 +739,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 04 -->
+                <!-- EXPERIMENT 004 -->
 
                 <article class="experiment-card"
                     data-category="chaos"
@@ -749,6 +754,7 @@
                         <span class="experiment-number">
                             EXP. 004
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -801,11 +807,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 05 -->
+                <!-- EXPERIMENT 005 -->
 
                 <article class="experiment-card"
                     data-category="test"
@@ -817,6 +822,7 @@
                         <span class="experiment-number">
                             EXP. 005
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -842,8 +848,8 @@
 
 
                     <p>
-                        How fast can you react? Prove that your brain is
-                        faster than everyone else's.
+                        How fast can you react? Prove that your brain is faster
+                        than everyone else's.
                     </p>
 
 
@@ -869,11 +875,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 06 -->
+                <!-- EXPERIMENT 006 -->
 
                 <article class="experiment-card"
                     data-category="random"
@@ -885,6 +890,7 @@
                         <span class="experiment-number">
                             EXP. 006
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -937,11 +943,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 07 -->
+                <!-- EXPERIMENT 007 -->
 
                 <article class="experiment-card"
                     data-category="chaos"
@@ -953,6 +958,7 @@
                         <span class="experiment-number">
                             EXP. 007
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -1005,11 +1011,10 @@
 
                     </div>
 
-
                 </article>
 
 
-                <!-- EXPERIMENT 08 -->
+                <!-- EXPERIMENT 008 -->
 
                 <article class="experiment-card"
                     data-category="test"
@@ -1021,6 +1026,7 @@
                         <span class="experiment-number">
                             EXP. 008
                         </span>
+
 
                         <span class="experiment-status">
 
@@ -1073,21 +1079,19 @@
 
                     </div>
 
-
                 </article>
 
-
             </div>
-
 
         </section>
 
 
-        <!-- ============================================
+        <!-- =================================================
              STATISTICS
-        ============================================= -->
+        ================================================== -->
 
-        <section class="stats-section" id="stats">
+        <section class="stats-section"
+            id="stats">
 
 
             <div class="stats-container">
@@ -1098,6 +1102,7 @@
                     <span class="stat-number">
                         08
                     </span>
+
 
                     <span class="stat-label">
                         ACTIVE EXPERIMENTS
@@ -1115,6 +1120,7 @@
                         100%
                     </span>
 
+
                     <span class="stat-label">
                         QUESTIONABLE SCIENCE
                     </span>
@@ -1131,24 +1137,24 @@
                         ∞
                     </span>
 
+
                     <span class="stat-label">
                         CURIOSITY REQUIRED
                     </span>
 
                 </div>
 
-
             </div>
-
 
         </section>
 
 
-        <!-- ============================================
+        <!-- =================================================
              ABOUT SECTION
-        ============================================= -->
+        ================================================== -->
 
-        <section class="about-section" id="about">
+        <section class="about-section"
+            id="about">
 
 
             <div class="about-content">
@@ -1159,6 +1165,7 @@
                     <span class="section-number">
                         02
                     </span>
+
 
                     <span>
                         ABOUT THE FACILITY
@@ -1189,7 +1196,6 @@
 
                 </p>
 
-
             </div>
 
 
@@ -1202,6 +1208,7 @@
                         LAB_MANIFEST.txt
                     </span>
 
+
                     <span>
                         READ ONLY
                     </span>
@@ -1211,64 +1218,75 @@
 
                 <div class="manifest-content">
 
+
                     <p>
+
                         <span>
                             01
                         </span>
 
                         curiosity.exe
+
                     </p>
 
+
                     <p>
+
                         <span>
                             02
                         </span>
 
                         boredom.exe
+
                     </p>
 
+
                     <p>
+
                         <span>
                             03
                         </span>
 
                         questionable_decisions.exe
+
                     </p>
 
+
                     <p>
+
                         <span>
                             04
                         </span>
 
                         fun.exe
+
                     </p>
 
                 </div>
 
-
             </div>
 
-
         </section>
-
 
     </main>
 
 
-    <!-- ================================================
+    <!-- =====================================================
          FOOTER
-    ================================================= -->
+    ====================================================== -->
 
     <footer class="site-footer">
 
 
         <div class="footer-brand">
 
+
             <div class="brand-symbol">
 
                 <i class="fa-solid fa-flask"></i>
 
             </div>
+
 
             <span>
                 INTERNET EXPERIMENT LAB
@@ -1290,13 +1308,12 @@
 
         </div>
 
-
     </footer>
 
 
-    <!-- ================================================
+    <!-- =====================================================
          EXPERIMENT MODAL
-    ================================================= -->
+    ====================================================== -->
 
     <div class="experiment-modal"
         id="experimentModal">
@@ -1346,222 +1363,333 @@
 
             </div>
 
-
         </div>
-
 
     </div>
 
 
-    <!-- ================================================
+    <!-- =====================================================
          JAVASCRIPT
-    ================================================= -->
+    ====================================================== -->
 
     <script>
 
 
-        /* ============================================
+        /* =================================================
            MOBILE MENU
-        ============================================ */
+        ================================================= */
 
 
         const mobileMenuButton =
-            document.getElementById("mobileMenuButton");
+            document.getElementById(
+                "mobileMenuButton"
+            );
 
 
         const mobileMenu =
-            document.getElementById("mobileMenu");
+            document.getElementById(
+                "mobileMenu"
+            );
 
 
-        mobileMenuButton.addEventListener("click", () => {
+        mobileMenuButton.addEventListener(
+            "click",
+            () => {
 
 
-            mobileMenu.classList.toggle("open");
+                mobileMenu.classList.toggle(
+                    "open"
+                );
 
 
-            const icon =
-                mobileMenuButton.querySelector("i");
+                const icon =
+                    mobileMenuButton.querySelector(
+                        "i"
+                    );
 
 
-            if (mobileMenu.classList.contains("open")) {
+                if (
+                    mobileMenu.classList.contains(
+                        "open"
+                    )
+                ) {
 
-                icon.classList.remove("fa-bars");
-
-                icon.classList.add("fa-xmark");
-
-            } else {
-
-                icon.classList.remove("fa-xmark");
-
-                icon.classList.add("fa-bars");
-
-            }
+                    icon.classList.remove(
+                        "fa-bars"
+                    );
 
 
-        });
-
-
-        /* ============================================
-           SEARCH SYSTEM
-        ============================================ */
-
-
-        const searchInput =
-            document.getElementById("experimentSearch");
-
-
-        const experimentCards =
-            document.querySelectorAll(".experiment-card");
-
-
-        searchInput.addEventListener("input", () => {
-
-
-            const searchValue =
-                searchInput.value.toLowerCase();
-
-
-            experimentCards.forEach(card => {
-
-
-                const experimentName =
-                    card.dataset.name.toLowerCase();
-
-
-                if (experimentName.includes(searchValue)) {
-
-                    card.style.display = "flex";
+                    icon.classList.add(
+                        "fa-xmark"
+                    );
 
                 } else {
 
-                    card.style.display = "none";
+                    icon.classList.remove(
+                        "fa-xmark"
+                    );
+
+
+                    icon.classList.add(
+                        "fa-bars"
+                    );
 
                 }
 
-
-            });
-
-
-        });
+            }
+        );
 
 
-        /* ============================================
+        /* =================================================
+           CLOSE MOBILE MENU AFTER CLICK
+        ================================================= */
+
+
+        const mobileLinks =
+            document.querySelectorAll(
+                ".mobile-menu a"
+            );
+
+
+        mobileLinks.forEach(
+            link => {
+
+
+                link.addEventListener(
+                    "click",
+                    () => {
+
+                        mobileMenu.classList.remove(
+                            "open"
+                        );
+
+                    }
+                );
+
+            }
+        );
+
+
+        /* =================================================
+           SEARCH SYSTEM
+        ================================================= */
+
+
+        const searchInput =
+            document.getElementById(
+                "experimentSearch"
+            );
+
+
+        const experimentCards =
+            document.querySelectorAll(
+                ".experiment-card"
+            );
+
+
+        searchInput.addEventListener(
+            "input",
+            () => {
+
+
+                const searchValue =
+                    searchInput.value.toLowerCase();
+
+
+                experimentCards.forEach(
+                    card => {
+
+
+                        const experimentName =
+                            card.dataset.name.toLowerCase();
+
+
+                        if (
+                            experimentName.includes(
+                                searchValue
+                            )
+                        ) {
+
+                            card.style.display =
+                                "flex";
+
+                        } else {
+
+                            card.style.display =
+                                "none";
+
+                        }
+
+                    }
+                );
+
+            }
+        );
+
+
+        /* =================================================
            FILTER SYSTEM
-        ============================================ */
+        ================================================= */
 
 
         const filterButtons =
-            document.querySelectorAll(".filter-button");
+            document.querySelectorAll(
+                ".filter-button"
+            );
 
 
-        filterButtons.forEach(button => {
+        filterButtons.forEach(
+            button => {
 
 
-            button.addEventListener("click", () => {
+                button.addEventListener(
+                    "click",
+                    () => {
 
 
-                filterButtons.forEach(btn => {
+                        filterButtons.forEach(
+                            btn => {
 
-                    btn.classList.remove("active");
+                                btn.classList.remove(
+                                    "active"
+                                );
 
-                });
-
-
-                button.classList.add("active");
-
-
-                const filter =
-                    button.dataset.filter;
+                            }
+                        );
 
 
-                experimentCards.forEach(card => {
+                        button.classList.add(
+                            "active"
+                        );
 
 
-                    if (
-                        filter === "all" ||
-                        card.dataset.category === filter
-                    ) {
+                        const filter =
+                            button.dataset.filter;
 
-                        card.style.display = "flex";
 
-                    } else {
+                        experimentCards.forEach(
+                            card => {
 
-                        card.style.display = "none";
+
+                                if (
+                                    filter === "all" ||
+                                    card.dataset.category === filter
+                                ) {
+
+                                    card.style.display =
+                                        "flex";
+
+                                } else {
+
+                                    card.style.display =
+                                        "none";
+
+                                }
+
+                            }
+                        );
 
                     }
+                );
+
+            }
+        );
 
 
-                });
-
-
-            });
-
-
-        });
-
-
-        /* ============================================
-           MODAL SYSTEM
-        ============================================ */
+        /* =================================================
+           MODAL ELEMENTS
+        ================================================= */
 
 
         const modal =
-            document.getElementById("experimentModal");
+            document.getElementById(
+                "experimentModal"
+            );
 
 
         const modalClose =
-            document.getElementById("modalClose");
+            document.getElementById(
+                "modalClose"
+            );
 
 
         const modalOverlay =
-            document.getElementById("modalOverlay");
+            document.getElementById(
+                "modalOverlay"
+            );
 
 
         const modalTitle =
-            document.getElementById("modalTitle");
+            document.getElementById(
+                "modalTitle"
+            );
 
 
         const modalDescription =
-            document.getElementById("modalDescription");
+            document.getElementById(
+                "modalDescription"
+            );
 
 
         const modalExperimentArea =
-            document.getElementById("modalExperimentArea");
+            document.getElementById(
+                "modalExperimentArea"
+            );
 
 
         const launchButtons =
-            document.querySelectorAll(".launch-button");
+            document.querySelectorAll(
+                ".launch-button"
+            );
 
 
-        launchButtons.forEach(button => {
+        /* =================================================
+           OPEN EXPERIMENT
+        ================================================= */
 
 
-            button.addEventListener("click", () => {
+        launchButtons.forEach(
+            button => {
 
 
-                const experiment =
-                    button.dataset.experiment;
+                button.addEventListener(
+                    "click",
+                    () => {
 
 
-                openExperiment(experiment);
+                        const experiment =
+                            button.dataset.experiment;
 
 
-            });
+                        openExperiment(
+                            experiment
+                        );
+
+                    }
+                );
+
+            }
+        );
 
 
-        });
+        function openExperiment(
+            experiment
+        ) {
 
 
-        function openExperiment(experiment) {
+            modal.classList.add(
+                "active"
+            );
 
 
-            modal.classList.add("active");
+            modalExperimentArea.innerHTML =
+                "";
 
 
-            modalExperimentArea.innerHTML = "";
-
-
-            if (experiment === "dont-click") {
+            if (
+                experiment ===
+                "dont-click"
+            ) {
 
 
                 modalTitle.textContent =
@@ -1582,9 +1710,14 @@
 
                     </button>
 
+
                     <p class="click-counter">
 
-                        Clicks: <strong id="clickCount">0</strong>
+                        CLICKS:
+
+                        <strong id="clickCount">
+                            0
+                        </strong>
 
                     </p>
 
@@ -1595,54 +1728,68 @@
 
 
                 const dangerButton =
-                    document.getElementById("dangerButton");
+                    document.getElementById(
+                        "dangerButton"
+                    );
 
 
                 const clickCount =
-                    document.getElementById("clickCount");
+                    document.getElementById(
+                        "clickCount"
+                    );
 
 
-                dangerButton.addEventListener("click", () => {
+                dangerButton.addEventListener(
+                    "click",
+                    () => {
 
 
-                    clicks++;
+                        clicks++;
 
 
-                    clickCount.textContent =
-                        clicks;
+                        clickCount.textContent =
+                            clicks;
 
 
-                    if (clicks === 5) {
+                        if (
+                            clicks === 5
+                        ) {
 
-                        dangerButton.textContent =
-                            "I TOLD YOU.";
+                            dangerButton.textContent =
+                                "I TOLD YOU.";
+
+                        }
+
+
+                        if (
+                            clicks === 10
+                        ) {
+
+                            dangerButton.textContent =
+                                "WHY ARE YOU LIKE THIS?";
+
+                        }
+
+
+                        if (
+                            clicks === 20
+                        ) {
+
+                            dangerButton.textContent =
+                                "EXPERIMENT COMPLETE";
+
+                        }
 
                     }
-
-
-                    if (clicks === 10) {
-
-                        dangerButton.textContent =
-                            "WHY ARE YOU LIKE THIS?";
-
-                    }
-
-
-                    if (clicks === 20) {
-
-                        dangerButton.textContent =
-                            "EXPERIMENT COMPLETE";
-
-                    }
-
-
-                });
-
+                );
 
             }
 
 
-            if (experiment === "random-life") {
+            if (
+                experiment ===
+                "random-life"
+            ) {
 
 
                 modalTitle.textContent =
@@ -1663,11 +1810,12 @@
 
                     </button>
 
+
                     <div
                         class="random-result"
                         id="randomResult">
 
-                        Your destiny is waiting...
+                        YOUR DESTINY IS WAITING...
 
                     </div>
 
@@ -1676,49 +1824,71 @@
 
                 const outcomes = [
 
+
                     "You will become famous for something completely accidental.",
+
 
                     "You will find money in a place you forgot about.",
 
+
                     "You will make a surprisingly good decision today.",
+
 
                     "A mysterious opportunity will appear.",
 
+
                     "You will laugh at something incredibly stupid.",
+
 
                     "You will discover a new obsession.",
 
-                    "Today you are legally required to have fun."
+
+                    "Today you are legally required to have fun.",
+
+
+                    "You will accidentally become the main character.",
+
+
+                    "Someone will tell you something completely unexpected."
 
                 ];
 
 
                 document
-                    .getElementById("generateLife")
-                    .addEventListener("click", () => {
+                    .getElementById(
+                        "generateLife"
+                    )
+                    .addEventListener(
+                        "click",
+                        () => {
 
 
-                        const randomOutcome =
-                            outcomes[
-                                Math.floor(
-                                    Math.random() * outcomes.length
+                            const randomOutcome =
+                                outcomes[
+                                    Math.floor(
+                                        Math.random() *
+                                        outcomes.length
+                                    )
+                                ];
+
+
+                            document
+                                .getElementById(
+                                    "randomResult"
                                 )
-                            ];
+                                .textContent =
+                                randomOutcome;
 
-
-                        document
-                            .getElementById("randomResult")
-                            .textContent =
-                            randomOutcome;
-
-
-                    });
-
+                        }
+                    );
 
             }
 
 
-            if (experiment === "useless") {
+            if (
+                experiment ===
+                "useless"
+            ) {
 
 
                 modalTitle.textContent =
@@ -1739,68 +1909,640 @@
 
                     </button>
 
+
                     <p id="uselessMessage">
 
-                        Nothing will happen.
+                        NOTHING WILL HAPPEN.
 
                     </p>
 
                 `;
 
 
-                let uselessClicks = 0;
+                let uselessClicks =
+                    0;
 
 
                 document
-                    .getElementById("uselessButton")
-                    .addEventListener("click", () => {
+                    .getElementById(
+                        "uselessButton"
+                    )
+                    .addEventListener(
+                        "click",
+                        () => {
 
 
-                        uselessClicks++;
+                            uselessClicks++;
 
 
-                        const messages = [
-
-                            "Nothing happened.",
-
-                            "Still nothing.",
-
-                            "You clicked it again.",
-
-                            "This is becoming concerning.",
-
-                            "Congratulations. Nothing happened.",
-
-                            "You have achieved absolutely nothing."
-
-                        ];
+                            const messages = [
 
 
-                        document
-                            .getElementById("uselessMessage")
-                            .textContent =
-                            messages[
-                                Math.min(
-                                    uselessClicks - 1,
-                                    messages.length - 1
-                                )
+                                "NOTHING HAPPENED.",
+
+
+                                "STILL NOTHING.",
+
+
+                                "YOU CLICKED IT AGAIN.",
+
+
+                                "THIS IS BECOMING CONCERNING.",
+
+
+                                "CONGRATULATIONS. NOTHING HAPPENED.",
+
+
+                                "YOU HAVE ACHIEVED ABSOLUTELY NOTHING."
+
                             ];
 
 
-                    });
+                            document
+                                .getElementById(
+                                    "uselessMessage"
+                                )
+                                .textContent =
+                                messages[
+                                    Math.min(
+                                        uselessClicks - 1,
+                                        messages.length - 1
+                                    )
+                                ];
 
+                        }
+                    );
 
             }
 
 
+            if (
+                experiment ===
+                "personality"
+            ) {
+
+
+                modalTitle.textContent =
+                    "INTERNET PERSONALITY";
+
+
+                modalDescription.textContent =
+                    "Choose the answer that feels most like you.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <div class="personality-question">
+
+                        <h3>
+                            YOUR WIFI STOPS WORKING.
+                            WHAT DO YOU DO?
+                        </h3>
+
+
+                        <button
+                            class="personality-option">
+
+                            RESTART THE ROUTER
+
+                        </button>
+
+
+                        <button
+                            class="personality-option">
+
+                            PANIC IMMEDIATELY
+
+                        </button>
+
+
+                        <button
+                            class="personality-option">
+
+                            BLAME THE INTERNET
+
+                        </button>
+
+
+                        <button
+                            class="personality-option">
+
+                            ACCEPT YOUR FATE
+
+                        </button>
+
+
+                        <div
+                            class="personality-result"
+                            id="personalityResult">
+
+                        </div>
+
+                    </div>
+
+                `;
+
+
+                const personalityOptions =
+                    document.querySelectorAll(
+                        ".personality-option"
+                    );
+
+
+                personalityOptions.forEach(
+                    option => {
+
+
+                        option.addEventListener(
+                            "click",
+                            () => {
+
+
+                                const results = [
+
+
+                                    "YOU ARE A DIGITAL SURVIVOR.",
+
+
+                                    "YOU ARE PURE INTERNET CHAOS.",
+
+
+                                    "YOU ARE THE INTERNET'S NATURAL ENEMY.",
+
+
+                                    "YOU HAVE ACHIEVED DIGITAL ENLIGHTENMENT."
+
+                                ];
+
+
+                                const randomResult =
+                                    results[
+                                        Math.floor(
+                                            Math.random() *
+                                            results.length
+                                        )
+                                    ];
+
+
+                                document
+                                    .getElementById(
+                                        "personalityResult"
+                                    )
+                                    .textContent =
+                                    randomResult;
+
+                            }
+                        );
+
+                    }
+                );
+
+            }
+
+
+            if (
+                experiment ===
+                "reaction"
+            ) {
+
+
+                modalTitle.textContent =
+                    "REACTION TEST";
+
+
+                modalDescription.textContent =
+                    "Wait for the signal. Then click as fast as possible.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <button
+                        class="reaction-button"
+                        id="reactionButton">
+
+                        START TEST
+
+                    </button>
+
+
+                    <div
+                        class="reaction-result"
+                        id="reactionResult">
+
+                        READY?
+
+                    </div>
+
+                `;
+
+
+                const reactionButton =
+                    document.getElementById(
+                        "reactionButton"
+                    );
+
+
+                const reactionResult =
+                    document.getElementById(
+                        "reactionResult"
+                    );
+
+
+                let reactionStart;
+
+
+                reactionButton.addEventListener(
+                    "click",
+                    () => {
+
+
+                        reactionButton.textContent =
+                            "WAIT...";
+
+
+                        reactionButton.disabled =
+                            true;
+
+
+                        reactionButton.classList.add(
+                            "waiting"
+                        );
+
+
+                        const delay =
+                            Math.floor(
+                                Math.random() *
+                                3000
+                            ) + 1500;
+
+
+                        setTimeout(
+                            () => {
+
+
+                                reactionButton.textContent =
+                                    "CLICK NOW";
+
+
+                                reactionButton.disabled =
+                                    false;
+
+
+                                reactionButton.classList.remove(
+                                    "waiting"
+                                );
+
+
+                                reactionButton.classList.add(
+                                    "ready"
+                                );
+
+
+                                reactionStart =
+                                    Date.now();
+
+
+                            },
+                            delay
+                        );
+
+                    }
+                );
+
+
+                reactionButton.addEventListener(
+                    "click",
+                    () => {
+
+
+                        if (
+                            reactionStart
+                        ) {
+
+
+                            const reactionTime =
+                                Date.now() -
+                                reactionStart;
+
+
+                            reactionResult.textContent =
+                                `YOUR REACTION TIME: ${reactionTime} MS`;
+
+
+                            reactionStart =
+                                null;
+
+                        }
+
+                    }
+                );
+
+            }
+
+
+            if (
+                experiment ===
+                "fortune"
+            ) {
+
+
+                modalTitle.textContent =
+                    "FORTUNE MACHINE";
+
+
+                modalDescription.textContent =
+                    "Ask the machine a question. It already knows everything.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <input
+                        class="fortune-input"
+                        id="fortuneInput"
+                        placeholder="ASK THE MACHINE ANYTHING...">
+
+
+                    <button
+                        class="primary-button"
+                        id="fortuneButton">
+
+                        REVEAL MY FATE
+
+                    </button>
+
+
+                    <div
+                        class="fortune-result"
+                        id="fortuneResult">
+
+                        THE MACHINE IS WAITING.
+
+                    </div>
+
+                `;
+
+
+                const fortunes = [
+
+
+                    "YES. ABSOLUTELY.",
+
+
+                    "NO. DEFINITELY NOT.",
+
+
+                    "THE MACHINE NEEDS MORE DATA.",
+
+
+                    "MAYBE. ASK AGAIN LATER.",
+
+
+                    "YOU ALREADY KNOW THE ANSWER.",
+
+
+                    "THE ANSWER IS PROBABLY PIZZA.",
+
+
+                    "THE FUTURE IS STRANGELY CONFUSING.",
+
+
+                    "ERROR: DESTINY NOT FOUND."
+
+                ];
+
+
+                document
+                    .getElementById(
+                        "fortuneButton"
+                    )
+                    .addEventListener(
+                        "click",
+                        () => {
+
+
+                            const randomFortune =
+                                fortunes[
+                                    Math.floor(
+                                        Math.random() *
+                                        fortunes.length
+                                    )
+                                ];
+
+
+                            document
+                                .getElementById(
+                                    "fortuneResult"
+                                )
+                                .textContent =
+                                randomFortune;
+
+                        }
+                    );
+
+            }
+
+
+            if (
+                experiment ===
+                "watching"
+            ) {
+
+
+                modalTitle.textContent =
+                    "THE WEBSITE IS WATCHING";
+
+
+                modalDescription.textContent =
+                    "The website has noticed your behavior.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <div
+                        class="watching-eye">
+
+                        <i class="fa-solid fa-eye"></i>
+
+                    </div>
+
+
+                    <p
+                        class="watching-message"
+                        id="watchingMessage">
+
+                        ANALYZING YOUR BEHAVIOR...
+
+                    </p>
+
+                `;
+
+
+                const watchingMessages = [
+
+
+                    "YOU HAVE BEEN HERE FOR A WHILE.",
+
+
+                    "YOU CLICKED THAT BUTTON VERY CONFIDENTLY.",
+
+
+                    "YOU ARE SCROLLING SUSPICIOUSLY.",
+
+
+                    "THE LAB HAS QUESTIONS ABOUT YOU.",
+
+
+                    "YOUR CURIOSITY LEVEL IS RISING.",
+
+
+                    "DON'T LOOK BEHIND YOU."
+
+                ];
+
+
+                let messageIndex =
+                    0;
+
+
+                setInterval(
+                    () => {
+
+
+                        const message =
+                            document
+                                .getElementById(
+                                    "watchingMessage"
+                                );
+
+
+                        if (
+                            message &&
+                            modal.classList.contains(
+                                "active"
+                            )
+                        ) {
+
+
+                            message.textContent =
+                                watchingMessages[
+                                    messageIndex %
+                                    watchingMessages.length
+                                ];
+
+
+                            messageIndex++;
+
+                        }
+
+                    },
+                    2000
+                );
+
+            }
+
+
+            if (
+                experiment ===
+                "human"
+            ) {
+
+
+                modalTitle.textContent =
+                    "ARE YOU HUMAN?";
+
+
+                modalDescription.textContent =
+                    "Answer one extremely important question.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <h3>
+                        DO YOU ENJOY PRESSING RANDOM BUTTONS?
+                    </h3>
+
+
+                    <button
+                        class="human-option"
+                        id="yesHuman">
+
+                        YES
+
+                    </button>
+
+
+                    <button
+                        class="human-option"
+                        id="noHuman">
+
+                        NO
+
+                    </button>
+
+
+                    <div
+                        class="human-result"
+                        id="humanResult">
+
+                    </div>
+
+                `;
+
+
+                document
+                    .getElementById(
+                        "yesHuman"
+                    )
+                    .addEventListener(
+                        "click",
+                        () => {
+
+
+                            document
+                                .getElementById(
+                                    "humanResult"
+                                )
+                                .textContent =
+                                "CONFIRMED. YOU ARE PROBABLY HUMAN.";
+
+                        }
+                    );
+
+
+                document
+                    .getElementById(
+                        "noHuman"
+                    )
+                    .addEventListener(
+                        "click",
+                        () => {
+
+
+                            document
+                                .getElementById(
+                                    "humanResult"
+                                )
+                                .textContent =
+                                "SUSPICIOUS. VERY SUSPICIOUS.";
+
+                        }
+                    );
+
+            }
+
         }
+
+
+        /* =================================================
+           CLOSE MODAL
+        ================================================= */
 
 
         function closeExperiment() {
 
-
-            modal.classList.remove("active");
-
+            modal.classList.remove(
+                "active"
+            );
 
         }
 
@@ -1817,67 +2559,82 @@
         );
 
 
-        /* ============================================
+        /* =================================================
+           ESCAPE KEY
+        ================================================= */
+
+
+        document.addEventListener(
+            "keydown",
+            event => {
+
+
+                if (
+                    event.key ===
+                    "Escape"
+                ) {
+
+                    closeExperiment();
+
+                }
+
+            }
+        );
+
+
+        /* =================================================
            RANDOM EXPERIMENT
-        ============================================ */
+        ================================================= */
 
 
         const randomExperimentButton =
-            document.getElementById("randomExperimentButton");
+            document.getElementById(
+                "randomExperimentButton"
+            );
 
 
-        randomExperimentButton.addEventListener("click", () => {
+        randomExperimentButton.addEventListener(
+            "click",
+            () => {
 
 
-            const randomCard =
-                experimentCards[
-                    Math.floor(
-                        Math.random() *
-                        experimentCards.length
-                    )
-                ];
+                const randomCard =
+                    experimentCards[
+                        Math.floor(
+                            Math.random() *
+                            experimentCards.length
+                        )
+                    ];
 
 
-            randomCard.scrollIntoView({
+                randomCard.scrollIntoView({
 
-                behavior: "smooth",
+                    behavior: "smooth",
 
-                block: "center"
+                    block: "center"
 
-            });
-
-
-            randomCard.classList.add("highlight-card");
+                });
 
 
-            setTimeout(() => {
-
-                randomCard.classList.remove(
+                randomCard.classList.add(
                     "highlight-card"
                 );
 
-            }, 2000);
+
+                setTimeout(
+                    () => {
 
 
-        });
+                        randomCard.classList.remove(
+                            "highlight-card"
+                        );
 
-
-        /* ============================================
-           KEYBOARD ESCAPE
-        ============================================ */
-
-
-        document.addEventListener("keydown", event => {
-
-
-            if (event.key === "Escape") {
-
-                closeExperiment();
+                    },
+                    2000
+                );
 
             }
-
-
-        });
+        );
 
 
     </script>
