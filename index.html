@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ================================================
+         BASIC DOCUMENT SETUP
+    ================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Internet Experiment Lab — a collection of strange, fun, interactive experiments built for curious minds.">
+
+    <meta name="theme-color" content="#08090d">
+
+    <title>Internet Experiment Lab</title>
+
+
+    <!-- ================================================
+         FONTS
+    ================================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- ================================================
+         ICONS
+    ================================================= -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- ================================================
+         WEBSITE STYLESHEET
+    ================================================= -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+    <!-- ================================================
+         BACKGROUND EFFECTS
+    ================================================= -->
+
+    <div class="background-grid"></div>
+
+    <div class="background-glow glow-one"></div>
+
+    <div class="background-glow glow-two"></div>
+
+    <div class="noise-overlay"></div>
+
+
+    <!-- ================================================
+         NAVIGATION
+    ================================================= -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+
+            <!-- LOGO -->
+
+            <a href="#" class="brand">
+
+                <div class="brand-symbol">
+
+                    <i class="fa-solid fa-flask"></i>
+
+                </div>
+
+                <div class="brand-text">
+
+                    <span class="brand-name">
+                        INTERNET
+                    </span>
+
+                    <span class="brand-subtitle">
+                        EXPERIMENT LAB
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <!-- NAVIGATION LINKS -->
+
+            <div class="nav-links">
+
+                <a href="#experiments">
+                    Experiments
+                </a>
+
+                <a href="#about">
+                    About Lab
+                </a>
+
+                <a href="#stats">
+                    Statistics
+                </a>
+
+            </div>
+
+
+            <!-- LIVE STATUS -->
+
+            <div class="lab-status">
+
+                <span class="status-dot"></span>
+
+                <span>
+                    LAB ONLINE
+                </span>
+
+            </div>
+
+
+            <!-- MOBILE MENU -->
+
+            <button class="mobile-menu-button" id="mobileMenuButton">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================================================
+         MOBILE NAVIGATION
+    ================================================= -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#experiments">
+            Experiments
+        </a>
+
+        <a href="#about">
+            About Lab
+        </a>
+
+        <a href="#stats">
+            Statistics
+        </a>
+
+    </div>
+
+
+    <!-- ================================================
+         MAIN WEBSITE
+    ================================================= -->
+
+    <main>
+
+
+        <!-- ============================================
+             HERO SECTION
+        ============================================= -->
+
+        <section class="hero-section">
+
+
+            <!-- HERO LEFT SIDE -->
+
+            <div class="hero-content">
+
+
+                <!-- SMALL LABEL -->
+
+                <div class="hero-label">
+
+                    <span class="label-line"></span>
+
+                    <span>
+                        EXPERIMENTAL INTERNET FACILITY
+                    </span>
+
+                </div>
+
+
+                <!-- MAIN TITLE -->
+
+                <h1>
+
+                    <span>
+                        WELCOME TO THE
+                    </span>
+
+                    <strong>
+                        INTERNET
+                    </strong>
+
+                    <span>
+                        EXPERIMENT LAB
+                    </span>
+
+                </h1>
+
+
+                <!-- DESCRIPTION -->
+
+                <p class="hero-description">
+
+                    A collection of strange experiments, questionable ideas,
+                    useless buttons, psychological tests, and things that
+                    probably should not exist on the internet.
+
+                </p>
+
+
+                <!-- HERO BUTTONS -->
+
+                <div class="hero-actions">
+
+
+                    <a href="#experiments" class="primary-button">
+
+                        <span>
+                            ENTER THE LAB
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <button class="secondary-button" id="randomExperimentButton">
+
+                        <i class="fa-solid fa-shuffle"></i>
+
+                        <span>
+                            SURPRISE ME
+                        </span>
+
+                    </button>
+
+
+                </div>
+
+
+                <!-- HERO NOTICE -->
+
+                <div class="hero-notice">
+
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+
+                    <span>
+                        WARNING: SIDE EFFECTS MAY INCLUDE CURIOSITY
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- HERO RIGHT SIDE -->
+
+            <div class="hero-visual">
+
+
+                <!-- LAB TERMINAL -->
+
+                <div class="terminal-window">
+
+
+                    <!-- TERMINAL HEADER -->
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-controls">
+
+                            <span></span>
+
+                            <span></span>
+
+                            <span></span>
+
+                        </div>
+
+                        <span class="terminal-title">
+                            experiment_terminal.exe
+                        </span>
+
+                        <span class="terminal-id">
+                            #001
+                        </span>
+
+                    </div>
+
+
+                    <!-- TERMINAL CONTENT -->
+
+                    <div class="terminal-content">
+
+                        <div class="terminal-line">
+
+                            <span class="terminal-green">
+                                $
+                            </span>
+
+                            <span>
+                                initializing_lab()
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-line terminal-muted">
+
+                            <span>
+                                &gt;
+                            </span>
+
+                            <span>
+                                Loading questionable experiments...
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-line terminal-success">
+
+                            <span>
+                                ✓
+                            </span>
+
+                            <span>
+                                Experiments loaded
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-line terminal-success">
+
+                            <span>
+                                ✓
+                            </span>
+
+                            <span>
+                                Curiosity detected
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-line terminal-warning">
+
+                            <span>
+                                !
+                            </span>
+
+                            <span>
+                                Proceed with curiosity
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-cursor-line">
+
+                            <span>
+                                $
+                            </span>
+
+                            <span class="terminal-cursor">
+                                █
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- FLOATING DATA CARDS -->
+
+                <div class="floating-data data-one">
+
+                    <span class="data-label">
+                        CURIOSITY
+                    </span>
+
+                    <strong>
+                        98.7%
+                    </strong>
+
+                </div>
+
+
+                <div class="floating-data data-two">
+
+                    <span class="data-label">
+                        STATUS
+                    </span>
+
+                    <strong>
+                        UNSTABLE
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ============================================
+             EXPERIMENT DASHBOARD
+        ============================================= -->
+
+        <section class="experiments-section" id="experiments">
+
+
+            <!-- SECTION HEADER -->
+
+            <div class="section-header">
+
+
+                <div>
+
+                    <div class="section-label">
+
+                        <span class="section-number">
+                            01
+                        </span>
+
+                        <span>
+                            EXPERIMENT DATABASE
+                        </span>
+
+                    </div>
+
+
+                    <h2>
+                        Choose your experiment.
+                    </h2>
+
+                </div>
+
+
+                <div class="experiment-count">
+
+                    <span>
+                        AVAILABLE EXPERIMENTS
+                    </span>
+
+                    <strong>
+                        08
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- EXPERIMENT FILTERS -->
+
+            <div class="experiment-controls">
+
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input type="text"
+                        id="experimentSearch"
+                        placeholder="Search experiments...">
+
+                </div>
+
+
+                <div class="filter-buttons">
+
+                    <button class="filter-button active"
+                        data-filter="all">
+
+                        ALL
+
+                    </button>
+
+                    <button class="filter-button"
+                        data-filter="chaos">
+
+                        CHAOS
+
+                    </button>
+
+                    <button class="filter-button"
+                        data-filter="test">
+
+                        TESTS
+
+                    </button>
+
+                    <button class="filter-button"
+                        data-filter="random">
+
+                        RANDOM
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- EXPERIMENT GRID -->
+
+            <div class="experiments-grid" id="experimentsGrid">
+
+
+                <!-- EXPERIMENT 01 -->
+
+                <article class="experiment-card featured-card"
+                    data-category="chaos"
+                    data-name="do not click">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 001
+                        </span>
+
+                        <span class="experiment-status active-status">
+
+                            <span></span>
+
+                            ACTIVE
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-hand-pointer"></i>
+
+                    </div>
+
+
+                    <h3>
+                        DO NOT CLICK
+                    </h3>
+
+
+                    <p>
+                        There is absolutely no reason to click this button.
+                        Seriously. Do not click it.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+                            <i class="fa-solid fa-bolt"></i>
+                            CHAOS LEVEL: HIGH
+                        </span>
+
+                        <button class="launch-button"
+                            data-experiment="dont-click">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 02 -->
+
+                <article class="experiment-card"
+                    data-category="test"
+                    data-name="internet personality">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 002
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            READY
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                    </div>
+
+
+                    <h3>
+                        INTERNET PERSONALITY
+                    </h3>
+
+
+                    <p>
+                        Discover what kind of internet creature you really
+                        are.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-brain"></i>
+
+                            PSYCHOLOGICAL
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="personality">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 03 -->
+
+                <article class="experiment-card"
+                    data-category="random"
+                    data-name="random life generator">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 003
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            READY
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-dice"></i>
+
+                    </div>
+
+
+                    <h3>
+                        RANDOM LIFE GENERATOR
+                    </h3>
+
+
+                    <p>
+                        Press a button and discover what completely random
+                        event will happen to you today.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-shuffle"></i>
+
+                            RANDOM
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="random-life">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 04 -->
+
+                <article class="experiment-card"
+                    data-category="chaos"
+                    data-name="useless button">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 004
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            READY
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-circle-question"></i>
+
+                    </div>
+
+
+                    <h3>
+                        THE USELESS BUTTON
+                    </h3>
+
+
+                    <p>
+                        A button that does nothing. Probably. Maybe.
+                        We are not entirely sure.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-face-laugh"></i>
+
+                            POINTLESS
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="useless">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 05 -->
+
+                <article class="experiment-card"
+                    data-category="test"
+                    data-name="reaction test">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 005
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            READY
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                    </div>
+
+
+                    <h3>
+                        REACTION TEST
+                    </h3>
+
+
+                    <p>
+                        How fast can you react? Prove that your brain is
+                        faster than everyone else's.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-stopwatch"></i>
+
+                            SPEED
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="reaction">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 06 -->
+
+                <article class="experiment-card"
+                    data-category="random"
+                    data-name="fortune machine">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 006
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            READY
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-crystal-ball"></i>
+
+                    </div>
+
+
+                    <h3>
+                        FORTUNE MACHINE
+                    </h3>
+
+
+                    <p>
+                        Ask the machine anything. It may know the answer.
+                        It probably does not.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-star"></i>
+
+                            MYSTERIOUS
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="fortune">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 07 -->
+
+                <article class="experiment-card"
+                    data-category="chaos"
+                    data-name="website watching">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 007
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            WATCHING
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-eye"></i>
+
+                    </div>
+
+
+                    <h3>
+                        THE WEBSITE IS WATCHING
+                    </h3>
+
+
+                    <p>
+                        The website knows what you are doing. The question is:
+                        how much does it know?
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-eye"></i>
+
+                            SUSPICIOUS
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="watching">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+                <!-- EXPERIMENT 08 -->
+
+                <article class="experiment-card"
+                    data-category="test"
+                    data-name="human test">
+
+
+                    <div class="card-top">
+
+                        <span class="experiment-number">
+                            EXP. 008
+                        </span>
+
+                        <span class="experiment-status">
+
+                            <span></span>
+
+                            READY
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="experiment-icon">
+
+                        <i class="fa-solid fa-user-secret"></i>
+
+                    </div>
+
+
+                    <h3>
+                        ARE YOU HUMAN?
+                    </h3>
+
+
+                    <p>
+                        A series of completely normal questions to determine
+                        whether you are actually human.
+                    </p>
+
+
+                    <div class="card-bottom">
+
+                        <span class="difficulty">
+
+                            <i class="fa-solid fa-robot"></i>
+
+                            CLASSIFIED
+
+                        </span>
+
+
+                        <button class="launch-button"
+                            data-experiment="human">
+
+                            LAUNCH
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ============================================
+             STATISTICS
+        ============================================= -->
+
+        <section class="stats-section" id="stats">
+
+
+            <div class="stats-container">
+
+
+                <div class="stat-item">
+
+                    <span class="stat-number">
+                        08
+                    </span>
+
+                    <span class="stat-label">
+                        ACTIVE EXPERIMENTS
+                    </span>
+
+                </div>
+
+
+                <div class="stat-divider"></div>
+
+
+                <div class="stat-item">
+
+                    <span class="stat-number">
+                        100%
+                    </span>
+
+                    <span class="stat-label">
+                        QUESTIONABLE SCIENCE
+                    </span>
+
+                </div>
+
+
+                <div class="stat-divider"></div>
+
+
+                <div class="stat-item">
+
+                    <span class="stat-number">
+                        ∞
+                    </span>
+
+                    <span class="stat-label">
+                        CURIOSITY REQUIRED
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ============================================
+             ABOUT SECTION
+        ============================================= -->
+
+        <section class="about-section" id="about">
+
+
+            <div class="about-content">
+
+
+                <div class="section-label">
+
+                    <span class="section-number">
+                        02
+                    </span>
+
+                    <span>
+                        ABOUT THE FACILITY
+                    </span>
+
+                </div>
+
+
+                <h2>
+                    We experiment so you don't have to.
+                </h2>
+
+
+                <p>
+
+                    The Internet Experiment Lab is a collection of interactive
+                    experiments created for people who are bored, curious,
+                    procrastinating, or simply willing to press buttons they
+                    were specifically told not to press.
+
+                </p>
+
+
+                <p>
+
+                    No accounts. No complicated rules. Just open the lab,
+                    choose an experiment, and see what happens.
+
+                </p>
+
+
+            </div>
+
+
+            <div class="about-terminal">
+
+
+                <div class="terminal-mini-header">
+
+                    <span>
+                        LAB_MANIFEST.txt
+                    </span>
+
+                    <span>
+                        READ ONLY
+                    </span>
+
+                </div>
+
+
+                <div class="manifest-content">
+
+                    <p>
+                        <span>
+                            01
+                        </span>
+
+                        curiosity.exe
+                    </p>
+
+                    <p>
+                        <span>
+                            02
+                        </span>
+
+                        boredom.exe
+                    </p>
+
+                    <p>
+                        <span>
+                            03
+                        </span>
+
+                        questionable_decisions.exe
+                    </p>
+
+                    <p>
+                        <span>
+                            04
+                        </span>
+
+                        fun.exe
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================================================
+         FOOTER
+    ================================================= -->
+
+    <footer class="site-footer">
+
+
+        <div class="footer-brand">
+
+            <div class="brand-symbol">
+
+                <i class="fa-solid fa-flask"></i>
+
+            </div>
+
+            <span>
+                INTERNET EXPERIMENT LAB
+            </span>
+
+        </div>
+
+
+        <p>
+            Built for curiosity. Powered by questionable decisions.
+        </p>
+
+
+        <div class="footer-status">
+
+            <span class="status-dot"></span>
+
+            ALL SYSTEMS OPERATIONAL
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- ================================================
+         EXPERIMENT MODAL
+    ================================================= -->
+
+    <div class="experiment-modal"
+        id="experimentModal">
+
+
+        <div class="modal-overlay"
+            id="modalOverlay">
+        </div>
+
+
+        <div class="modal-window">
+
+
+            <button class="modal-close"
+                id="modalClose">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+            <div class="modal-icon"
+                id="modalIcon">
+
+                <i class="fa-solid fa-flask"></i>
+
+            </div>
+
+
+            <span class="modal-label">
+                EXPERIMENT INITIALIZED
+            </span>
+
+
+            <h2 id="modalTitle">
+                Experiment
+            </h2>
+
+
+            <p id="modalDescription">
+                Preparing experiment...
+            </p>
+
+
+            <div class="modal-experiment-area"
+                id="modalExperimentArea">
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ================================================
+         JAVASCRIPT
+    ================================================= -->
+
+    <script>
+
+
+        /* ============================================
+           MOBILE MENU
+        ============================================ */
+
+
+        const mobileMenuButton =
+            document.getElementById("mobileMenuButton");
+
+
+        const mobileMenu =
+            document.getElementById("mobileMenu");
+
+
+        mobileMenuButton.addEventListener("click", () => {
+
+
+            mobileMenu.classList.toggle("open");
+
+
+            const icon =
+                mobileMenuButton.querySelector("i");
+
+
+            if (mobileMenu.classList.contains("open")) {
+
+                icon.classList.remove("fa-bars");
+
+                icon.classList.add("fa-xmark");
+
+            } else {
+
+                icon.classList.remove("fa-xmark");
+
+                icon.classList.add("fa-bars");
+
+            }
+
+
+        });
+
+
+        /* ============================================
+           SEARCH SYSTEM
+        ============================================ */
+
+
+        const searchInput =
+            document.getElementById("experimentSearch");
+
+
+        const experimentCards =
+            document.querySelectorAll(".experiment-card");
+
+
+        searchInput.addEventListener("input", () => {
+
+
+            const searchValue =
+                searchInput.value.toLowerCase();
+
+
+            experimentCards.forEach(card => {
+
+
+                const experimentName =
+                    card.dataset.name.toLowerCase();
+
+
+                if (experimentName.includes(searchValue)) {
+
+                    card.style.display = "flex";
+
+                } else {
+
+                    card.style.display = "none";
+
+                }
+
+
+            });
+
+
+        });
+
+
+        /* ============================================
+           FILTER SYSTEM
+        ============================================ */
+
+
+        const filterButtons =
+            document.querySelectorAll(".filter-button");
+
+
+        filterButtons.forEach(button => {
+
+
+            button.addEventListener("click", () => {
+
+
+                filterButtons.forEach(btn => {
+
+                    btn.classList.remove("active");
+
+                });
+
+
+                button.classList.add("active");
+
+
+                const filter =
+                    button.dataset.filter;
+
+
+                experimentCards.forEach(card => {
+
+
+                    if (
+                        filter === "all" ||
+                        card.dataset.category === filter
+                    ) {
+
+                        card.style.display = "flex";
+
+                    } else {
+
+                        card.style.display = "none";
+
+                    }
+
+
+                });
+
+
+            });
+
+
+        });
+
+
+        /* ============================================
+           MODAL SYSTEM
+        ============================================ */
+
+
+        const modal =
+            document.getElementById("experimentModal");
+
+
+        const modalClose =
+            document.getElementById("modalClose");
+
+
+        const modalOverlay =
+            document.getElementById("modalOverlay");
+
+
+        const modalTitle =
+            document.getElementById("modalTitle");
+
+
+        const modalDescription =
+            document.getElementById("modalDescription");
+
+
+        const modalExperimentArea =
+            document.getElementById("modalExperimentArea");
+
+
+        const launchButtons =
+            document.querySelectorAll(".launch-button");
+
+
+        launchButtons.forEach(button => {
+
+
+            button.addEventListener("click", () => {
+
+
+                const experiment =
+                    button.dataset.experiment;
+
+
+                openExperiment(experiment);
+
+
+            });
+
+
+        });
+
+
+        function openExperiment(experiment) {
+
+
+            modal.classList.add("active");
+
+
+            modalExperimentArea.innerHTML = "";
+
+
+            if (experiment === "dont-click") {
+
+
+                modalTitle.textContent =
+                    "DO NOT CLICK";
+
+
+                modalDescription.textContent =
+                    "You were specifically told not to click this.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <button
+                        class="danger-experiment-button"
+                        id="dangerButton">
+
+                        DO NOT CLICK
+
+                    </button>
+
+                    <p class="click-counter">
+
+                        Clicks: <strong id="clickCount">0</strong>
+
+                    </p>
+
+                `;
+
+
+                let clicks = 0;
+
+
+                const dangerButton =
+                    document.getElementById("dangerButton");
+
+
+                const clickCount =
+                    document.getElementById("clickCount");
+
+
+                dangerButton.addEventListener("click", () => {
+
+
+                    clicks++;
+
+
+                    clickCount.textContent =
+                        clicks;
+
+
+                    if (clicks === 5) {
+
+                        dangerButton.textContent =
+                            "I TOLD YOU.";
+
+                    }
+
+
+                    if (clicks === 10) {
+
+                        dangerButton.textContent =
+                            "WHY ARE YOU LIKE THIS?";
+
+                    }
+
+
+                    if (clicks === 20) {
+
+                        dangerButton.textContent =
+                            "EXPERIMENT COMPLETE";
+
+                    }
+
+
+                });
+
+
+            }
+
+
+            if (experiment === "random-life") {
+
+
+                modalTitle.textContent =
+                    "RANDOM LIFE GENERATOR";
+
+
+                modalDescription.textContent =
+                    "Generate your completely random destiny.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <button
+                        class="primary-button"
+                        id="generateLife">
+
+                        GENERATE MY DESTINY
+
+                    </button>
+
+                    <div
+                        class="random-result"
+                        id="randomResult">
+
+                        Your destiny is waiting...
+
+                    </div>
+
+                `;
+
+
+                const outcomes = [
+
+                    "You will become famous for something completely accidental.",
+
+                    "You will find money in a place you forgot about.",
+
+                    "You will make a surprisingly good decision today.",
+
+                    "A mysterious opportunity will appear.",
+
+                    "You will laugh at something incredibly stupid.",
+
+                    "You will discover a new obsession.",
+
+                    "Today you are legally required to have fun."
+
+                ];
+
+
+                document
+                    .getElementById("generateLife")
+                    .addEventListener("click", () => {
+
+
+                        const randomOutcome =
+                            outcomes[
+                                Math.floor(
+                                    Math.random() * outcomes.length
+                                )
+                            ];
+
+
+                        document
+                            .getElementById("randomResult")
+                            .textContent =
+                            randomOutcome;
+
+
+                    });
+
+
+            }
+
+
+            if (experiment === "useless") {
+
+
+                modalTitle.textContent =
+                    "THE USELESS BUTTON";
+
+
+                modalDescription.textContent =
+                    "This button does absolutely nothing.";
+
+
+                modalExperimentArea.innerHTML = `
+
+                    <button
+                        class="useless-button"
+                        id="uselessButton">
+
+                        CLICK ME
+
+                    </button>
+
+                    <p id="uselessMessage">
+
+                        Nothing will happen.
+
+                    </p>
+
+                `;
+
+
+                let uselessClicks = 0;
+
+
+                document
+                    .getElementById("uselessButton")
+                    .addEventListener("click", () => {
+
+
+                        uselessClicks++;
+
+
+                        const messages = [
+
+                            "Nothing happened.",
+
+                            "Still nothing.",
+
+                            "You clicked it again.",
+
+                            "This is becoming concerning.",
+
+                            "Congratulations. Nothing happened.",
+
+                            "You have achieved absolutely nothing."
+
+                        ];
+
+
+                        document
+                            .getElementById("uselessMessage")
+                            .textContent =
+                            messages[
+                                Math.min(
+                                    uselessClicks - 1,
+                                    messages.length - 1
+                                )
+                            ];
+
+
+                    });
+
+
+            }
+
+
+        }
+
+
+        function closeExperiment() {
+
+
+            modal.classList.remove("active");
+
+
+        }
+
+
+        modalClose.addEventListener(
+            "click",
+            closeExperiment
+        );
+
+
+        modalOverlay.addEventListener(
+            "click",
+            closeExperiment
+        );
+
+
+        /* ============================================
+           RANDOM EXPERIMENT
+        ============================================ */
+
+
+        const randomExperimentButton =
+            document.getElementById("randomExperimentButton");
+
+
+        randomExperimentButton.addEventListener("click", () => {
+
+
+            const randomCard =
+                experimentCards[
+                    Math.floor(
+                        Math.random() *
+                        experimentCards.length
+                    )
+                ];
+
+
+            randomCard.scrollIntoView({
+
+                behavior: "smooth",
+
+                block: "center"
+
+            });
+
+
+            randomCard.classList.add("highlight-card");
+
+
+            setTimeout(() => {
+
+                randomCard.classList.remove(
+                    "highlight-card"
+                );
+
+            }, 2000);
+
+
+        });
+
+
+        /* ============================================
+           KEYBOARD ESCAPE
+        ============================================ */
+
+
+        document.addEventListener("keydown", event => {
+
+
+            if (event.key === "Escape") {
+
+                closeExperiment();
+
+            }
+
+
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
