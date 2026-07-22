@@ -15,23 +15,18 @@
     <title>Internet Experiment Lab</title>
 
 
-    <!-- GOOGLE FONTS -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-
-    <!-- FONT AWESOME -->
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-
-    <!-- WEBSITE CSS -->
 
     <link rel="stylesheet" href="style.css">
 
@@ -40,10 +35,6 @@
 
 <body>
 
-
-    <!-- =====================================================
-         BACKGROUND
-    ====================================================== -->
 
     <div class="background-grid"></div>
 
@@ -54,16 +45,10 @@
     <div class="noise-overlay"></div>
 
 
-    <!-- =====================================================
-         HEADER
-    ====================================================== -->
-
     <header class="site-header">
 
         <nav class="navbar">
 
-
-            <!-- BRAND -->
 
             <a href="#" class="brand">
 
@@ -90,8 +75,6 @@
             </a>
 
 
-            <!-- DESKTOP NAVIGATION -->
-
             <div class="nav-links">
 
                 <a href="#experiments">
@@ -111,8 +94,6 @@
             </div>
 
 
-            <!-- LAB STATUS -->
-
             <div class="lab-status">
 
                 <span class="status-dot"></span>
@@ -123,8 +104,6 @@
 
             </div>
 
-
-            <!-- MOBILE BUTTON -->
 
             <button class="mobile-menu-button"
                 id="mobileMenuButton">
@@ -138,10 +117,6 @@
 
     </header>
 
-
-    <!-- =====================================================
-         MOBILE MENU
-    ====================================================== -->
 
     <div class="mobile-menu"
         id="mobileMenu">
@@ -163,21 +138,11 @@
     </div>
 
 
-    <!-- =====================================================
-         MAIN
-    ====================================================== -->
-
     <main>
 
 
-        <!-- =================================================
-             HERO SECTION
-        ================================================== -->
-
         <section class="hero-section">
 
-
-            <!-- HERO CONTENT -->
 
             <div class="hero-content">
 
@@ -265,8 +230,6 @@
 
             </div>
 
-
-            <!-- HERO TERMINAL -->
 
             <div class="hero-visual">
 
@@ -391,8 +354,6 @@
                 </div>
 
 
-                <!-- FLOATING DATA -->
-
                 <div class="floating-data data-one">
 
                     <span class="data-label">
@@ -425,15 +386,9 @@
         </section>
 
 
-        <!-- =================================================
-             EXPERIMENT DATABASE
-        ================================================== -->
-
         <section class="experiments-section"
             id="experiments">
 
-
-            <!-- SECTION HEADER -->
 
             <div class="section-header">
 
@@ -476,8 +431,6 @@
 
             </div>
 
-
-            <!-- SEARCH AND FILTER -->
 
             <div class="experiment-controls">
 
@@ -533,13 +486,9 @@
             </div>
 
 
-            <!-- EXPERIMENT CARDS -->
-
             <div class="experiments-grid"
                 id="experimentsGrid">
 
-
-                <!-- EXPERIMENT 001 -->
 
                 <article class="experiment-card featured-card"
                     data-category="chaos"
@@ -607,8 +556,6 @@
                 </article>
 
 
-                <!-- EXPERIMENT 002 -->
-
                 <article class="experiment-card"
                     data-category="test"
                     data-name="internet personality">
@@ -673,8 +620,6 @@
 
                 </article>
 
-
-                <!-- EXPERIMENT 003 -->
 
                 <article class="experiment-card"
                     data-category="random"
@@ -742,8 +687,6 @@
                 </article>
 
 
-                <!-- EXPERIMENT 004 -->
-
                 <article class="experiment-card"
                     data-category="chaos"
                     data-name="useless button">
@@ -809,8 +752,6 @@
 
                 </article>
 
-
-                <!-- EXPERIMENT 005 -->
 
                 <article class="experiment-card"
                     data-category="test"
@@ -878,8 +819,6 @@
                 </article>
 
 
-                <!-- EXPERIMENT 006 -->
-
                 <article class="experiment-card"
                     data-category="random"
                     data-name="fortune machine">
@@ -945,8 +884,6 @@
 
                 </article>
 
-
-                <!-- EXPERIMENT 007 -->
 
                 <article class="experiment-card"
                     data-category="chaos"
@@ -1014,8 +951,6 @@
                 </article>
 
 
-                <!-- EXPERIMENT 008 -->
-
                 <article class="experiment-card"
                     data-category="test"
                     data-name="human test">
@@ -1081,14 +1016,11 @@
 
                 </article>
 
+
             </div>
 
         </section>
 
-
-        <!-- =================================================
-             STATISTICS
-        ================================================== -->
 
         <section class="stats-section"
             id="stats">
@@ -1148,10 +1080,6 @@
 
         </section>
 
-
-        <!-- =================================================
-             ABOUT SECTION
-        ================================================== -->
 
         <section class="about-section"
             id="about">
@@ -1271,10 +1199,6 @@
     </main>
 
 
-    <!-- =====================================================
-         FOOTER
-    ====================================================== -->
-
     <footer class="site-footer">
 
 
@@ -1310,10 +1234,6 @@
 
     </footer>
 
-
-    <!-- =====================================================
-         EXPERIMENT MODAL
-    ====================================================== -->
 
     <div class="experiment-modal"
         id="experimentModal">
@@ -1368,16 +1288,7 @@
     </div>
 
 
-    <!-- =====================================================
-         JAVASCRIPT
-    ====================================================== -->
-
     <script>
-
-
-        /* =================================================
-           MOBILE MENU
-        ================================================= */
 
 
         const mobileMenuButton =
@@ -1440,11 +1351,6 @@
         );
 
 
-        /* =================================================
-           CLOSE MOBILE MENU AFTER CLICK
-        ================================================= */
-
-
         const mobileLinks =
             document.querySelectorAll(
                 ".mobile-menu a"
@@ -1468,11 +1374,6 @@
 
             }
         );
-
-
-        /* =================================================
-           SEARCH SYSTEM
-        ================================================= */
 
 
         const searchInput =
@@ -1525,11 +1426,6 @@
 
             }
         );
-
-
-        /* =================================================
-           FILTER SYSTEM
-        ================================================= */
 
 
         const filterButtons =
@@ -1596,11 +1492,6 @@
         );
 
 
-        /* =================================================
-           MODAL ELEMENTS
-        ================================================= */
-
-
         const modal =
             document.getElementById(
                 "experimentModal"
@@ -1641,11 +1532,6 @@
             document.querySelectorAll(
                 ".launch-button"
             );
-
-
-        /* =================================================
-           OPEN EXPERIMENT
-        ================================================= */
 
 
         launchButtons.forEach(
@@ -2156,6 +2042,38 @@
                     () => {
 
 
+                        if (
+                            reactionStart
+                        ) {
+
+
+                            const reactionTime =
+                                Date.now() -
+                                reactionStart;
+
+
+                            reactionResult.textContent =
+                                `YOUR REACTION TIME: ${reactionTime} MS`;
+
+
+                            reactionStart =
+                                null;
+
+
+                            reactionButton.textContent =
+                                "START AGAIN";
+
+
+                            reactionButton.classList.remove(
+                                "ready"
+                            );
+
+
+                            return;
+
+                        }
+
+
                         reactionButton.textContent =
                             "WAIT...";
 
@@ -2209,34 +2127,6 @@
                     }
                 );
 
-
-                reactionButton.addEventListener(
-                    "click",
-                    () => {
-
-
-                        if (
-                            reactionStart
-                        ) {
-
-
-                            const reactionTime =
-                                Date.now() -
-                                reactionStart;
-
-
-                            reactionResult.textContent =
-                                `YOUR REACTION TIME: ${reactionTime} MS`;
-
-
-                            reactionStart =
-                                null;
-
-                        }
-
-                    }
-                );
-
             }
 
 
@@ -2259,7 +2149,7 @@
                     <input
                         class="fortune-input"
                         id="fortuneInput"
-                        placeholder="ASK THE MACHINE ANYTHING...">
+                        placeholder="ASK THE MACHINE ANYTHING">
 
 
                     <button
@@ -2404,39 +2294,46 @@
                     0;
 
 
-                setInterval(
-                    () => {
+                const watchingInterval =
+                    setInterval(
+                        () => {
 
 
-                        const message =
-                            document
-                                .getElementById(
-                                    "watchingMessage"
+                            const message =
+                                document
+                                    .getElementById(
+                                        "watchingMessage"
+                                    );
+
+
+                            if (
+                                message &&
+                                modal.classList.contains(
+                                    "active"
+                                )
+                            ) {
+
+
+                                message.textContent =
+                                    watchingMessages[
+                                        messageIndex %
+                                        watchingMessages.length
+                                    ];
+
+
+                                messageIndex++;
+
+                            } else {
+
+                                clearInterval(
+                                    watchingInterval
                                 );
 
+                            }
 
-                        if (
-                            message &&
-                            modal.classList.contains(
-                                "active"
-                            )
-                        ) {
-
-
-                            message.textContent =
-                                watchingMessages[
-                                    messageIndex %
-                                    watchingMessages.length
-                                ];
-
-
-                            messageIndex++;
-
-                        }
-
-                    },
-                    2000
-                );
+                        },
+                        2000
+                    );
 
             }
 
@@ -2533,11 +2430,6 @@
         }
 
 
-        /* =================================================
-           CLOSE MODAL
-        ================================================= */
-
-
         function closeExperiment() {
 
             modal.classList.remove(
@@ -2559,11 +2451,6 @@
         );
 
 
-        /* =================================================
-           ESCAPE KEY
-        ================================================= */
-
-
         document.addEventListener(
             "keydown",
             event => {
@@ -2580,11 +2467,6 @@
 
             }
         );
-
-
-        /* =================================================
-           RANDOM EXPERIMENT
-        ================================================= */
 
 
         const randomExperimentButton =
